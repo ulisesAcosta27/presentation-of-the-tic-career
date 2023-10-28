@@ -35,7 +35,7 @@ export const Hero = () => {
                 className="text-sm w-full lg:text-base"
                 initial="hidden"
                 animate="visible"
-                transition={{ delay: 0.1 }}
+                transition={{ delay: 0.1, ease: "linear" }}
                 variants={defaulAnimation}
               >
                 Transforma la educación, inspira el futuro. Forjando innovadores
